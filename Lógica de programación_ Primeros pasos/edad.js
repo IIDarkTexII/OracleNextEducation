@@ -1,4 +1,20 @@
-document.write("La edad de la persona es ......");
+document.write("Se quiere calcular el promedio de las edades y el año en que nacieron");
 document.write("<br>");
-document.write(5+10); //suma normal
-document.write("5"+"10") //concatenación
+document.write("<br>");
+document.write("<br>");
+document.write("<br>");
+document.write("El promedio de edad de Juan (28), Carlos (20) y Pedro (12) es: " + ((28+20+12)/3));
+document.write("<br>");
+document.write("<br>");
+document.write("<br>");
+document.write("Juan nació en el año: ");
+document.write("<br>");
+document.write(2022-28);
+document.write("<br>");
+document.write("Carlos nació en el año: ");
+document.write("<br>");
+document.write(2022-20);
+document.write("<br>");
+document.write("Pedro nació en el año: ");
+document.write("<br>");
+document.write(2022-12);
