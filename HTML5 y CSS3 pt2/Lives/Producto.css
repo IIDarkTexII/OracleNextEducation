@@ -1,0 +1,87 @@
+header{
+    background-color: #080708;
+    padding: 20px 0;
+}
+.inicio{
+    width: 70%;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 50%;
+    right: 20%;
+}
+nav li{
+    display:inline;
+    margin: 0 0 0 40px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #EBF5EE;
+    font-size: 22px;
+    font-weight: bolder;
+    text-decoration:none;
+}
+nav a:hover{
+    color: #3DA5D9;
+    text-decoration: underline;
+}
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 3px solid #003049;
+    border-radius: 50px;
+}
+
+.productos li:hover{
+    border-color: #3DA5D9;
+}
+
+.productos li:active{
+    border-color: #FEC601;
+}
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+}
+
+.parrafo{
+    font-size: large;
+    font-style: italic;
+}
+.precio{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background:url(../imagenes/bg.jpg);
+    padding: 40px;
+}
+#caracterE{
+    color: azure;
+    font-size: 13px;
+    margin: 20px ;
+}
