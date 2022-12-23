@@ -21,6 +21,9 @@
 <h4> git push </h4>
 <p>Es un comando de Git que se utiliza para enviar commits desde tu repositorio local a un repositorio remoto. Al ejecutar git push, Git envía tus commits al repositorio remoto y los fusiona con la rama de destino (que es la rama del repositorio remoto que se está actualizando).</p>
 
+<h4> Borrar </h4>
+<p>Con el 'git restore' deshacemos una modificación que aún no fue agregada al index o stage, o sea, antes de hacer git add. Después de agregar con git add, para deshacer una modificación, necesitamos sacarlo de este estado, con 'git restore --staged'. Ahora, si ya hicimos el commit, el comando 'git revert' puede salvarnos.</p>
+
 <h1> ¿Qué es GitHub? </h1>
 <p> GitHub es una plataforma en línea para alojar proyectos que utilizan el sistema de control de versiones Git. Ofrece una serie de herramientas y funcionalidades diseñadas para facilitar el trabajo en proyectos de código, como la posibilidad de realizar seguimiento de problemas y mejoras, hacer colaboración en tiempo real y hacer un seguimiento del historial de cambios en el código.</p>
 <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="30%" height= "30%">
